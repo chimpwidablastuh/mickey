@@ -1,7 +1,10 @@
 const robot = require("robotjs");
+const config = require('./config');
+
+const { THRESHOLD } = config;
 
 
-setInterval(moveMouse, 10000);
+setInterval(moveMouse, THRESHOLD * 1000);
 
 function moveMouse(){
   // generate random position within the screen for the mouse
