@@ -1,11 +1,12 @@
 {
-  "name": "mickey",
+  "name": "i",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./app.js"
+    "start": "python3 app/app.py",
+    "build": "python3 setup.py py2app"
   },
   "keywords": [],
   "author": "",
