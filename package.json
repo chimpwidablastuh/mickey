@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "rn-nodeify": "^10.3.0"
   }
 }
