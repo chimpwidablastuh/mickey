@@ -2,6 +2,10 @@
 
 Welcome to Mickey's world, where your mouse never gets bored! This Python project is designed to animate your mouse on its own, for fun or just to amaze your colleagues. 🎉
 
+## International
+
+Mickey fluently speaks all of those languages 🇩🇪 🇧🇪 🇷🇺 🇮🇹 🇬🇧 🇪🇸 🇵🇹 🇭🇷 🇷🇸 🇹🇷 🇮🇱 🇸🇦 🇲🇦 🇹🇳 🇩🇿 🇱🇾 🇮🇳 🇨🇳 🇯🇵 🇳🇱 🇸🇪 🇩🇰 🇳🇴 🇫🇮 🇵🇱 🇨🇿 🇸🇰 🇭🇺 🇧🇬 🇬🇷 🇷🇴 🇸🇮 🇱🇻 🇪🇪 🇱🇹 🇲🇹 🇦🇲 🇦🇫 🇵🇰 🇬🇪 🇦🇿 🇫🇷 🇺🇸
+
 ## Prerequisites 📋
 
 Make sure you have Python 3 installed on your machine. You can check your Python version with:
