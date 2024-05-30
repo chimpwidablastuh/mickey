@@ -2,11 +2,12 @@ import rumps
 import time
 import random
 import Quartz.CoreGraphics as CG
+from i18n.translate import i18n
 
 
 class ConcentrationModeApp(rumps.App):
     def __init__(self):
-        super(ConcentrationModeApp, self).__init__("bnktop")
+        super(ConcentrationModeApp, self).__init__(i18n("sneakyLabel"))
         self.timer = None
         self.active = False
         self.mouse_x, self.mouse_y = self.get_mouse_position()
@@ -15,12 +16,12 @@ class ConcentrationModeApp(rumps.App):
         self.active = not self.active
         if self.active:
             self.start_mouse_movement()
-            self.menu["Enable"].state = 1
-            self.menu["Disable"].state = 0
+            self.menu[i18n("enable")].state = 1
+            self.menu[i18n("disable")].state = 0
         else:
             self.stop_mouse_movement()
-            self.menu["Enable"].state = 0
-            self.menu["Disable"].state = 1
+            self.menu[i18n("enable")].state = 0
+            self.menu[i18n("disable")].state = 1
 
     def start_mouse_movement(self):
         self.timer = rumps.Timer(self.move_mouse_and_return, 2)
@@ -89,6 +90,6 @@ class ConcentrationModeApp(rumps.App):
 
 if __name__ == "__main__":
     app = ConcentrationModeApp()
-    app.menu.add(rumps.MenuItem("Enable", callback=app.toggle_active, key="a"))
-    app.menu.add(rumps.MenuItem("Disable", callback=app.toggle_active, key="i"))
+    app.menu.add(rumps.MenuItem(i18n("enable"), callback=app.toggle_active, key="a"))
+    app.menu.add(rumps.MenuItem(i18n("disable"), callback=app.toggle_active, key="i"))
     app.run()
