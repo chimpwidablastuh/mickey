@@ -1,10 +1,10 @@
-# Mickey 🐭
+# BusyBee 🐝.
 
-Welcome to Mickey's world, where your mouse never gets bored! This Python project is designed to animate your mouse on its own, for fun or just to amaze your colleagues. 🎉
+Welcome to BusyBee's world, where your mouse never gets bored! This Python project is designed to animate your mouse on its own, for fun or just to amaze your colleagues. 🎉
 
 ## International
 
-Mickey fluently speaks all of those languages 🇩🇪 🇧🇪 🇷🇺 🇮🇹 🇬🇧 🇪🇸 🇵🇹 🇭🇷 🇷🇸 🇹🇷 🇮🇱 🇸🇦 🇲🇦 🇹🇳 🇩🇿 🇱🇾 🇮🇳 🇨🇳 🇯🇵 🇳🇱 🇸🇪 🇩🇰 🇳🇴 🇫🇮 🇵🇱 🇨🇿 🇸🇰 🇭🇺 🇧🇬 🇬🇷 🇷🇴 🇸🇮 🇱🇻 🇪🇪 🇱🇹 🇲🇹 🇦🇲 🇦🇫 🇵🇰 🇬🇪 🇦🇿 🇫🇷 🇺🇸
+BusyBee fluently speaks all of those languages 🇩🇪 🇧🇪 🇷🇺 🇮🇹 🇬🇧 🇪🇸 🇵🇹 🇭🇷 🇷🇸 🇹🇷 🇮🇱 🇸🇦 🇲🇦 🇹🇳 🇩🇿 🇱🇾 🇮🇳 🇨🇳 🇯🇵 🇳🇱 🇸🇪 🇩🇰 🇳🇴 🇫🇮 🇵🇱 🇨🇿 🇸🇰 🇭🇺 🇧🇬 🇬🇷 🇷🇴 🇸🇮 🇱🇻 🇪🇪 🇱🇹 🇲🇹 🇦🇲 🇦🇫 🇵🇰 🇬🇪 🇦🇿 🇫🇷 🇺🇸
 
 ## Download latest release
 
@@ -18,12 +18,12 @@ python3 --version
 
 ## Installation 🚀
 
-To get started with Mickey, follow these simple steps:
+To get started with BusyBee, follow these simple steps:
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/elcitrovmtgrande/mickey
+git clone https://github.com/elcitrovmtgrande/BusyBee
 ```
 
 2. Install the necessary dependencies:
@@ -52,7 +52,7 @@ This command will prepare a version that you can take with you wherever you go, 
 
 ## Contribute 🤝
 
-Want to contribute to Mickey? Great! Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+Want to contribute to BusyBee? Great! Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
 ## License 📄
 
@@ -60,7 +60,7 @@ Distributed under the MIT license. See `LICENSE` for more information.
 
 ## Have fun! 🎈
 
-Remember, an animated mouse is a happy mouse. Have fun with Mickey and watch your mouse dance across your screen!
+Remember, an animated mouse is a happy mouse. Have fun with BusyBee and watch your mouse dance across your screen!
 
 ## Special thanks
 
