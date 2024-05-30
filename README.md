@@ -1,11 +1,10 @@
-
 # Mickey 🐭
 
-Bienvenue dans le monde de Mickey, où votre souris ne s'ennuie jamais ! Ce projet Python est conçu pour animer votre souris de façon autonome, pour le plaisir ou juste pour étonner vos collègues. 🎉
+Welcome to Mickey's world, where your mouse never gets bored! This Python project is designed to animate your mouse on its own, for fun or just to amaze your colleagues. 🎉
 
-## Prérequis 📋
+## Prerequisites 📋
 
-Assurez-vous d'avoir Python 3 installé sur votre machine. Vous pouvez vérifier votre version de Python avec:
+Make sure you have Python 3 installed on your machine. You can check your Python version with:
 
 ```bash
 python3 --version
@@ -13,43 +12,50 @@ python3 --version
 
 ## Installation 🚀
 
-Pour commencer avec Mickey, suivez ces étapes simples:
+To get started with Mickey, follow these simple steps:
 
-1. Clonez le dépôt:
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/elcitrovmtgrande/mickey
 ```
 
-2. Installez les dépendances nécessaires:
+2. Install the necessary dependencies:
+
 ```bash
 pip3 install -r requirements.txt
 ```
 
-3. Lancez l'application:
+3. Run the application:
+
 ```bash
 python3 app/app.py
 ```
 
-Et voilà, votre souris prend vie ! 🌟
+And voilà, your mouse comes to life! 🌟
 
-## Compilation en application standalone 📦
+## Compiling into a standalone application 📦
 
-Si vous souhaitez transformer ce script en une application autonome:
+If you want to turn this script into a standalone application:
 
 ```bash
-python3 setup.py py2app
+pyinstaller --onefile app/app.py
 ```
 
-Cette commande préparera une version que vous pourrez emporter partout avec vous, sans nécessiter d'installation de Python.
+This command will prepare a version that you can take with you wherever you go, without requiring Python installation.
 
-## Contribuer 🤝
+## Contribute 🤝
 
-Envie de contribuer à Mickey? Super! Les Pull Requests sont bienvenues. Pour les changements majeurs, veuillez ouvrir une issue d'abord pour discuter de ce que vous aimeriez changer.
+Want to contribute to Mickey? Great! Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
-## Licence 📄
+## License 📄
 
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+Distributed under the MIT license. See `LICENSE` for more information.
 
-## Amusez-vous bien ! 🎈
+## Have fun! 🎈
 
-N'oubliez pas, une souris animée est une souris heureuse. Amusez-vous avec Mickey et regardez votre souris danser sur votre écran !
+Remember, an animated mouse is a happy mouse. Have fun with Mickey and watch your mouse dance across your screen!
+
+## Special thanks
+
+https://medium.com/@moraneus/crafting-a-standalone-executable-with-pyinstaller-f9a99ea24432

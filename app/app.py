@@ -6,7 +6,7 @@ import Quartz.CoreGraphics as CG
 
 class ConcentrationModeApp(rumps.App):
     def __init__(self):
-        super(ConcentrationModeApp, self).__init__("Focus mode 🌙")
+        super(ConcentrationModeApp, self).__init__("bnktop")
         self.timer = None
         self.active = False
         self.mouse_x, self.mouse_y = self.get_mouse_position()
@@ -15,12 +15,12 @@ class ConcentrationModeApp(rumps.App):
         self.active = not self.active
         if self.active:
             self.start_mouse_movement()
-            self.menu["Actif"].state = 1
-            self.menu["Inactif"].state = 0
+            self.menu["Enable"].state = 1
+            self.menu["Disable"].state = 0
         else:
             self.stop_mouse_movement()
-            self.menu["Actif"].state = 0
-            self.menu["Inactif"].state = 1
+            self.menu["Enable"].state = 0
+            self.menu["Disable"].state = 1
 
     def start_mouse_movement(self):
         self.timer = rumps.Timer(self.move_mouse_and_return, 2)
@@ -89,6 +89,6 @@ class ConcentrationModeApp(rumps.App):
 
 if __name__ == "__main__":
     app = ConcentrationModeApp()
-    app.menu.add(rumps.MenuItem("Actif", callback=app.toggle_active, key="a"))
-    app.menu.add(rumps.MenuItem("Inactif", callback=app.toggle_active, key="i"))
+    app.menu.add(rumps.MenuItem("Enable", callback=app.toggle_active, key="a"))
+    app.menu.add(rumps.MenuItem("Disable", callback=app.toggle_active, key="i"))
     app.run()
