@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>busybee</string>
+	<key>CFBundleExecutable</key>
+	<string>busybee</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-4570596dc71aef8fa18a875e5c57e9e84a508831f92e55189ce213d2bb29c42a.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>busybee</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>busybee</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>

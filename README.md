@@ -45,7 +45,7 @@ And voilà, your mouse comes to life! 🌟
 If you want to turn this script into a standalone application:
 
 ```bash
-pyinstaller --onefile app/app.py
+pyinstaller --noconsole --onefile --windowed app/busybee.py -i assets/busybee.ico
 ```
 
 This command will prepare a version that you can take with you wherever you go, without requiring Python installation.
